@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <title>Catalog</title>
+    <div class="background-image">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="line"></div>
+    </header>
+    <nav>
+        <ul><img  src="bear logo.png" 
+            alt="Изображение 1"
+            width="200"/>
+            <div id="topnav" class="topnav">
+            <li><a href="#main">Главная</a></li>
+            <!--<li><a href="#main" >Главная</a></li>*/-->
+            <li><a href="#about" >О продукции</a></li>
+            <li><a class="active" href="#catalog" >Каталог красок</a></li>
+            <li><a href="#contacts" >Контакты</a></li>
+        </div>
+        <div class="language-switch">
+            <a href="?lang=en">English</a> |
+            <a href="?lang=ru">Русский</a> |
+            <a href="?lang=hy">Հայերեն</a>
+        </div>
+        <h1>Компания по производству и экспорту качественных строительных красок</h1>
+        <div class="line"></div>
+    <script>// When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    
+    // Get the navbar
+    var topnav = document.getElementById("topnav");
+    
+    // Get the offset position of the navbar
+    var sticky = topnav.offsetTop;
+    
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        topnav.classList.add("sticky")
+      } else {
+        topnav.classList.remove("sticky");
+      }
+    }</script>
+
+        </ul>
+    </nav>
+    
+
+    <footer>
+        <p>&copy; 2023 Bear Group</p>
+    </footer>
+  </div>
+</body> 
+</html>

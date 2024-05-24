@@ -1,0 +1,39 @@
+{
+    "en": {
+        "home": "Home",
+        "about": "About",
+        "catalog": "Catalog",
+        "contact": "Contact",
+        "welcome": "Welcome to our paint manufacturing",
+        "about_text": "We specialize in producing environmentally friendly and high-quality paints for various surfaces...",
+        "catalog_paint1": "Wall Paint",
+        "catalog_text1": "High-quality wall paint with excellent moisture and UV resistance.",
+        "catalog_paint2": "Metal Paint",
+        "catalog_text2": "Special paint for metal surfaces with corrosion protection.",
+        "footer": "© 2023 Paint Manufacturing. All rights reserved."
+    },
+    "ru": {
+        "home": "Главная",
+        "about": "О продукции",
+        "catalog": "Каталог",
+        "contact": "Контакты",
+        "welcome": "Добро пожаловать в наше производство красок",
+        "about_text": "Мы специализируемся на производстве экологически чистых и высококачественных красок...",
+        "catalog_paint1": "Краска для стен",
+        "catalog_text1": "Высококачественная краска для стен с отличной стойкостью к влаге и ультрафиолету.",
+        "catalog_paint2": "Краска для металла",
+        "catalog_text2": "Специальная краска для металлических поверхностей с защитой от коррозии.",
+        "footer": "© 2023 Производство краски. Все права защищены."
+    },
+    "hy": {
+        "home": "Գլխավոր",
+        "about": "Մեր ապրանքի մասին",
+        "catalog": "Կատալոգ",
+        "contact": "Կապ",
+        "welcome": "Բարի գալուստ մեր գույքարշավի արտադրություն",
+        "about_text": "Մենք մատակարարում ենք բնական միջավայրային մանրակրկներում և բարձր որակի գույքարշավերեր առ տարածքներ...",
+        "catalog_paint1": "Շեղագրավետ գույք",
+        "catalog_text1": "Բարձր որակի շեղագրավետ գույք հավատարած մածության ու ուլտրաֆիոլետի դեպքում։",
+        "catalog_paint2": "Արծաթի գույք",
+        "catalog_text2": "Հատուկ արծաթի համար սպեցիալ գույք մետալային հարավայրերի համար՝ կորրոզիայի պաշարակում։",
+        "footer": "© 2023 Գույքարշավում. Բոլոր իրավունք
