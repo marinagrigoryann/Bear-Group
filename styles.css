@@ -31,7 +31,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #e7ffdc;
-    background-image: url("2.avif");
+    background-image: url("2.jpg");
     background-size: cover; /* Растягивает изображение на всю доступную площадь */
   background-position: center; /* Выравнивание изображения по центру */
   height: 100vh; /* Высота элемента на 100% высоты видимой области */
@@ -102,10 +102,10 @@ h2 {
     line-height: 1.6;
     background-color: #fff7e0;
     color:#302e2b;
-    ;
     margin: 0;
   padding: 0;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -772,4 +772,389 @@ q {font-style: italic;}
 #tool:hover + #tooltip3,
 #tool4:hover + #tooltip1 {
     display: block; /* Отображаем окно при наведении на соответствующую кнопку */
+}
+
+@font-face {
+  font-weight: 400; /* Соответствует значению normal */
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    text-align: center;
+    padding: 25px;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:initial;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7fff3;
+  background-image: url("2.avif");
+  background-size: cover; /* Растягивает изображение на всю доступную площадь */
+background-position: center; /* Выравнивание изображения по центру */
+height: 100vh; /* Высота элемента на 100% высоты видимой области */
+padding: 0;
+  color: #333;
+  margin: 0;
+  font-size: small; /* Уменьшаем размер шрифта */
+    padding: 5px; /* Уменьшаем отступы */
+
+}
+
+  h1 {
+    font-size: large; /* Уменьшаем размер заголовков */
+  }
+
+  h2 {
+    font-size: medium; /* Уменьшаем размер заголовков */
+  }
+
+
+.parallax {
+  /* The image used */
+  background-image: url("3.jpg");
+
+  /* Full height */
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0,7;
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("1.avif");
+
+  /* Full height */
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0,7;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f8f8f8f1;
+  opacity: 0.9;
+}
+
+.custom-slideshow-container {
+  position: relative;
+  background: #f8f8f8f1;
+  opacity: 0.9;
+}
+
+.my-slideshow-container {
+  position: relative;
+  background: #f8f8f8f1;
+  opacity: 0.9;
+}
+
+.your-slideshow-container {
+  position: relative;
+  background: #f8f8f8f1;
+  opacity: 0.9;
+}
+
+.our-slideshow-container {
+  position: relative;
+  background: #f8f8f8f1;
+  opacity: 0.9;
+}
+
+
+/* Slides */
+.custom-slides {
+  display: none;
+  padding: 35px;
+  text-align: left;
+}
+
+.my-slides {
+  display: none;
+  padding: 35px;
+  text-align: left;
+}
+
+.your-slides {
+  display: none;
+  padding: 35px;
+  text-align: left;
+}
+
+.our-slides {
+  display: none;
+  padding: 35px;
+  text-align: left;
+}
+
+.Slides {
+  display: none;
+  padding: 35px;
+  text-align:left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 10px;
+  color: #535353;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #d3d3d3;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+.my-dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+.your-dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+.our-dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+.custom-dot-container {
+  text-align: center;
+  padding: 10px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.custom-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.my-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.your-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.our-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+.section0{
+  text-align: center;
+  color: red;
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+.section1{
+  text-align: center;
+  color: blue;
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+.section4{
+  text-align: center;
+  color: rgb(255, 127, 8);
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+.section5{
+  text-align: center;
+  color: rgb(16, 160, 2);
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+.section6{
+  text-align: center;
+  color: rgb(167, 1, 209);
+  font-family:'Times New Roman', Times, serif;
+  font-size:x-large;
+}
+
+.glava {
+  text-align: center;
+}
+
+.tooltip-text {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  overflow-y: auto;
+  z-index: 2;
+  font-size: smaller;
+  text-align: left;
+  pointer-events: none;
+  position:absolute;
+  left: -80%;
+  top: -200px;
+  border-radius: 2%;
+}
+  
+.parallax {
+  /* The image used */
+  background-image: url("3.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0,7;
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("1.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 8px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0,7;
+}
+
 }
